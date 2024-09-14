@@ -25,3 +25,37 @@ body {
     text-wrap: balance;
   }
 }
+
+/* NavBar */
+nav {
+  @apply bg-primary/50 flex justify-around p-4 items-center absolute top-0 overflow-hidden backdrop-blur-md w-full
+}
+
+.nav-container {
+  @apply flex flex-auto justify-around gap-2
+}
+
+.nav-button {
+  @apply bg-warning p-3 rounded-full
+}
+
+/* First section */
+.hero {
+  @apply flex flex-col bg-gradient-to-r from-primary-light to-primary
+}
+
+section {
+  @apply h-screen pt-10
+}
+
+.clients-love-section {
+  @apply bg-orange-200
+}
+
+.hire-me-section {
+  @apply bg-stone-200
+}
+
+.huge-heading-text {
+  @apply text-9xl font-extrabold
+}
